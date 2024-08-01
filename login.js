@@ -1,10 +1,19 @@
 let usuarios = JSON.parse(localStorage.getItem("usuario"))
-console.log(usuarios);
- 
- const correo = document.getElementById("correoL")
- const contraseña = document.getElementById("contraseñaL")
- const btnL = documet.getElementById("btnL")
 
  
+ const correoL = document.getElementById("correoL");
+ const contraseñaL = document.getElementById("contraseñaL");
+ const boton = document.getElementById("boton");
+
+ boton.addEventListener("click", function () {
+const validUsuario = usuarios.find (usuarios => usuarios.correoL == correoL && usuarios.contraseñaL == contraseñaL) 
+
+
+    
+
+window.location.href = "/proyecto-2-JavaScript/tareas.html"
+ })
+
+
  
  

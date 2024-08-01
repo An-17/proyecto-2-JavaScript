@@ -1,0 +1,26 @@
+.cuadro{
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 70%;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+
+.logo{
+    width: 200px;
+    height: 200px;
+   
+   }
+   
+   .inicio{
+   text-align: center;
+   
+   }
+   
+   .nombre{
+   text-align: center;
+   
+   }
+   
